@@ -5,7 +5,7 @@
 
 }
 
-.hero{
+.about_hero{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -38,12 +38,13 @@ nav ul li a:hover{
     
 }
 
-.detail{
-    margin-left: 8%;
-    margin-top: 15%;
+.skills{
+    
+    margin-left: 75%;
+    margin-top: 13%;
 }
 
-.detail h1{
+.skills h1{
     font-size: 55px;
     color: white;
     margin-bottom: 20px;
@@ -53,14 +54,14 @@ span{
     color: orange;
 }
 
-.detail p{
+.skills p{
     font-size: 30px;
     color: grey;
-    line-height: 35px;
+    line-height: 40px;
 
 }
 
-.detail a{
+.skills a{
     background: #555;
     padding: 10px 18px;
     text-decoration: none;
@@ -69,6 +70,16 @@ span{
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
+}
+
+.java{
+    color: grey;
+    margin-top: 20px;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .images{
@@ -80,11 +91,9 @@ span{
 }
 
 .images img{
-    height: 100%;
+    height: 90%;
     position: absolute;
-    left: 50%;
     bottom: 0;
-    transform: translateX(-50%);
+    transform: translateX(-80%);
     transition: bottom 1s, left 1s;
 }
-
